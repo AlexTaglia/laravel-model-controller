@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;
+
+0,700;1,400&display=swap);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 1px;
+}
+
+.flex {
+  display: flex;
+}
+
+body {
+  background-image: url("/img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-bottom: 25px;
+}
+
+.film-section {
+  background-color: rgba(246, 246, 246, 0.6);
+  padding: 50px;
+  border-radius: 25px;
+  margin-bottom: 50px;
+}
+
+p {
+  padding-bottom: 6px;
+}
+
+.details {
+  padding-left: 25px;
+}
+
+.bottom {
+  padding-top: 25px;
+}
+
