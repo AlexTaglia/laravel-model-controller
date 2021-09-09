@@ -45,7 +45,9 @@ BONUS: Stilare il layout nei dettagli con Sass
 
                 <div class="bottom">
                     <h4>Trama</h4>
-                    <p>{{$movie->plot}}</p>
+                    <div class="trama">
+                        <p>{{$movie->plot}}</p>
+                    </div>
                 </div>
             </div>    
         @endforeach
